@@ -48,8 +48,33 @@
 
 .socialMedia i {
 	margin-right: 10px;
+	text-decoration: none;
 }
 
+.socialMedia li a {
+	text-decoration: none;
+	color: #372414;
+}
+
+.socialMedia a {
+	position: relative;
+}
+
+.socialMedia a::after {
+	content: "";
+	position: absolute;
+	width: 0%;
+	height: 1px;
+	left: 0;
+	bottom: -3px; /* a bit lower = softer look */
+	background-color: #372414; /* softer brown */
+	opacity: 0.7; /* less harsh */
+	transition: width 0.3s ease;
+}
+
+.socialMedia a:hover::after {
+	width: 130%;
+}
 .footbarlinks a:hover {
 	color: #cca771;
 	text-decoration: underline; /* Lighter color on hover for contrast */

@@ -33,17 +33,27 @@ const Footer = () => {
 					<li>
 						<i className="fa-solid fa-phone"></i>+8170-1428-1515
 					</li>
+
 					<li>
-						<i className="fa-brands fa-facebook"></i>
-						Sweet Street
+						<a
+							href="https://www.facebook.com/profile.php?id=61573416684441"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<i className="fa-brands fa-facebook"></i>
+							Sweet Street
+						</a>
 					</li>
+
 					<li>
-						<i className="fa-brands fa-instagram"></i>
-						SweetStreetjpn
-					</li>
-					<li>
-						<i className="fa-brands fa-tiktok"></i>
-						@sweet.street.jpn
+						<a
+							href="https://www.instagram.com/sweetstreetjpn/?hl=en"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<i className="fa-brands fa-instagram"></i>
+							SweetStreetjpn
+						</a>
 					</li>
 				</div>
 				<div className={styles.tagline}>

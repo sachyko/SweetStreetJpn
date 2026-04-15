@@ -74,18 +74,26 @@ const Contact = () => {
 					<p>
 						<i className="fa-solid fa-phone"></i>+8170-1428-1515
 					</p>
-					<p>
-						<i className="fa-brands fa-facebook"></i>
-						Sweet Street
-					</p>
-					<p>
-						<i className="fa-brands fa-instagram"></i>
-						SweetStreetjpn
-					</p>
-					<p>
-						<i className="fa-brands fa-tiktok"></i>
-						@sweet.street.jpn
-					</p>
+					<a
+						href="https://www.facebook.com/profile.php?id=61573416684441"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<p>
+							<i className="fa-brands fa-facebook"></i>
+							Sweet Street
+						</p>
+					</a>
+					<a
+						href="https://www.instagram.com/sweetstreetjpn/?hl=en"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<p>
+							<i className="fa-brands fa-instagram"></i>
+							SweetStreetjpn
+						</p>
+					</a>
 				</div>
 				<div className={styles.contactForm}>
 					<h2>Contact Us</h2>
